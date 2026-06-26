@@ -1,0 +1,1 @@
+image:=sample_inputs/image.raw qpos:=sample_inputs/qpos.raw task_embedding:=sample_inputs/task_embedding.raw

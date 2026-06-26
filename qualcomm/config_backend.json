@@ -1,0 +1,14 @@
+{
+  "graphs": [
+    {
+      "graph_names": ["maniflow_handover_1step"],
+      "vtcm_mb": 0
+    }
+  ],
+  "devices": [
+    {
+      "dsp_arch": "v73",
+      "soc_id": 77
+    }
+  ]
+}

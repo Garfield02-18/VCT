@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Generated smoke-test outputs
+tmp/
+results/
+checkpoints/
+
+# Large data/model artifacts
+data/
+docs/*.mp4
+*.zarr
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.onnx.data
+*.dlc
+*.bin
+*.raw
+
+# QNN runtime outputs
+qnn_output/
+output_htp_*/
+qnn-profiling-data_*.log
+execution_metadata.yaml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Keep the small substitute ACT/QNN bundle versioned for reproducible smoke tests.
+!assets/
+!assets/qnn_friendly_policy_bundle/
+!assets/qnn_friendly_policy_bundle/**
+assets/qnn_friendly_policy_bundle/output_htp_*/
+assets/qnn_friendly_policy_bundle/qnn-profiling-data_*.log
+assets/qnn_friendly_policy_bundle/**/Result_*/
